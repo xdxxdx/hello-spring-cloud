@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hello-spring-cloud-service-admin
+server:
+  port: 8092
+eureka:
+  client:
+    service-url:
+      #Eureka服务器的地址
+      defaultZone: http://localhost:8091/eureka/
