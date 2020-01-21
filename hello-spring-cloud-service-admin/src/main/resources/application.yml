@@ -2,7 +2,7 @@ spring:
   application:
     name: hello-spring-cloud-service-admin
 server:
-  port: 8092
+  port: 8093
 eureka:
   client:
     service-url:
